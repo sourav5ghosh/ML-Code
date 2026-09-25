@@ -1,0 +1,15 @@
+import numpy as np
+
+A = np.array ([[1,2,3],
+               [1,2,3]])
+B = np.array ([[1,2,3],
+               [1,2,3]])
+
+print("Array A :\n",A)
+print("Array B :\n",B)
+
+Sum = A + B
+print("Addition Result :\n",Sum)
+
+Diff = A - B
+print("Subtraction Result :\n",Diff)
