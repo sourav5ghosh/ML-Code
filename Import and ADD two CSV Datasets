@@ -17,3 +17,4 @@ print(c)
 c.to_csv("c.csv", index=False, header=False)
 
 print("\nc.csv file created successfully!")
+files.download("c.csv")
